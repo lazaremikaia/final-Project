@@ -58,8 +58,23 @@ header {
 }
  nav{
     margin-top: 35px;
-    
  }
+
+ .mobile-burger {
+    display: none;
+    cursor: pointer;
+    background-color: orange;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  .burger-item {
+    width: 48px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 10px;
+  }
+
+
  
  .shapetop {
     margin-left: 660px;
@@ -157,10 +172,55 @@ header {
 
 @media (max-width:1024px) {
     
+    .bkr-list {
+        display: none;
+    }
+    .contact-container{
+        display: none;
+    }
+    .BKR-container {
+        width: 80%;
+    }
+    .mobile-burger {
+        display: block;
+        cursor: pointer;
+        background-color: orange;
+        padding: 15px;
+        border-radius: 50%;
+      }
 
+      .nav-wrapper {
+        display: flex;
+        justify-content: space-betweensss;
+        margin: 0 auto;
+        gap: 190px;
+        margin: 50px;
+        align-items: baseline;
+      }
+      .bkr {
+        width: 150px;
+      }
+      .shapetop {
+        display: none;
+      }
+      .freshbakery {
+        font-size: 56px;
+      }
+      .blindtexts {
+        width: 250px;
+      }
 
+      .bakery-box {
+        display: flex;
+        flex-direction: column-reverse;
+      }
 
-
+      .bekry-images {
+        margin-top: -330px;
+      }
+      .bakery-info {
+        margin-top: -230px;
+      }
 }
 
 
