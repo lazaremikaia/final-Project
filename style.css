@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ 
+body {
+    overflow-x: hidden;
+}
+
+.BKR-wrapper {
+    background: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.BKR-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+
+
+ul {
+    display: flex;
+    
+}
+
+ul li {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-wrapper {
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.contact-wrapper{
+    color: white;
+    border: 1px solid grey;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-container {
+    margin-top: 20px;
+}
+ nav{
+    margin-top: 35px;
+    
+ }
+ 
+ .shapetop {
+    margin-left: 660px;
+    position: absolute;
+    margin-top: -100px;
+    
+ }
+
+ .date {
+    color: white;
+    font-size: 20px;
+    margin-top: 270px;
+ }
+ 
+ .freshbakery{
+    font-size: 72px;
+    color: white;
+    width: 446px;
+    margin-top: 35px;
+    font-family: 'ultra';
+    
+ }
+
+  @font-face {
+    font-family: 'ultra';
+    src: url(./font/Ultra-Regular.ttf);
+  }
+
+ .blindtexts {
+    color: white;
+    font-size: 20px;
+    width:400px;
+    margin-top: 35px;
+ }
+
+ .bakery-box {
+    display: flex;
+    gap: 200px;
+    margin: 0 auto;
+    
+ }
+ 
+ .bekry-images {
+    position: relative;
+    margin-top: -50px;
+ }
+
+.Shape {
+    width: 341px;
+    margin-top: 270px;
+}
+
+.shape-orange {
+    width: 271px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 150px;
+}
+
+.combinedshape {
+    width: 154px;
+    margin-top: -285px;
+    position: absolute;
+    margin-left: -35px;
+}
+
+.bitmap{
+    position: absolute;
+    width: 343px;
+    margin-top: -470px;
+    margin-left: -35px;
+}
+
+.oval {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 90px;
+}
+
+.bakeryman{
+    width: 480px;
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 100px;
+}
+
+.shape-down {
+    position: absolute;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.baking-wrapper{
+    background: rgb(248, 217, 160);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
