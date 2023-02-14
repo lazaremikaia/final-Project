@@ -10,14 +10,14 @@ body {
 .BKR-wrapper {
     background: black;
     width: 100%;
-    height: 100vh;
+    
+    
 }
 
 .BKR-container {
     max-width: 1200px;
     margin: 0 auto;
-    height: 100vh;
-    
+    height: 120vh;
     
 }
 
@@ -31,6 +31,7 @@ ul li {
     color: white;
     padding: 10px;
     text-decoration: none;
+    list-style: none;
 }
 
 .nav-wrapper {
@@ -147,57 +148,67 @@ header {
 
 .shape-down {
     position: absolute;
-    margin-left: 500px;
-    margin-top: 200px;
-    width: 300px;
-
+    margin-left: -700px;
+    margin-top: 950px
 }
 
 
 
 
+@media (max-width:1024px) {
+    
 
 
 
 
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.baking-wrapper{
-    background: rgb(248, 217, 160);
+.baking {
+    background: blue;
     width: 100%;
     height: 100vh;
     position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
