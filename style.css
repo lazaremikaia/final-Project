@@ -16,6 +16,7 @@ body {
 .BKR-container {
     max-width: 1200px;
     margin: 0 auto;
+    height: 100vh;
     
     
 }
@@ -82,7 +83,7 @@ header {
  }
 
   @font-face {
-    font-family: 'ultra';
+    font-family:'ultra';
     src: url(./font/Ultra-Regular.ttf);
   }
 
@@ -146,7 +147,10 @@ header {
 
 .shape-down {
     position: absolute;
-    margin: 0 auto;
+    margin-left: 500px;
+    margin-top: 200px;
+    width: 300px;
+
 }
 
 
