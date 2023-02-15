@@ -167,10 +167,15 @@ header {
 
 .shape-down {
     position: absolute;
-    margin-left: -700px;
-    margin-top: 750px
+    
+    
 }
 
+.shape-right {
+  position: absolute;
+  
+  
+}
 
 
 
@@ -182,8 +187,12 @@ header {
     .contact-container{
         display: none;
     }
+    .BKR-wrapper{
+      width: 100%;
+    }
+
     .BKR-container {
-        width: 80%;
+        width: 100%
     }
     .mobile-burger {
         display: block;
@@ -227,7 +236,10 @@ header {
       }
       .bakery-info {
         margin-top: -230px;
-        
+      }
+
+      .shape-right {
+        display: none;
       }
 }
 
