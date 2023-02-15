@@ -181,6 +181,12 @@ header {
 
 @media (max-width:1024px) {
     
+    body{
+      overflow-x: hidden;
+    }
+
+
+
     .bkr-list {
         display: none;
     }
