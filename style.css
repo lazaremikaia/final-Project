@@ -17,7 +17,7 @@ body {
 .BKR-container {
     max-width: 1200px;
     margin: 0 auto;
-    height: 120vh;
+    height: 100vh;
     
 }
 
@@ -34,6 +34,11 @@ ul li {
     list-style: none;
 }
 
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
 .nav-wrapper {
     display: flex;
     gap: 100px;
@@ -47,6 +52,9 @@ ul li {
     padding: 15px;
     text-align: center;
 }
+
+
+
 
 header {
     display: flex;
@@ -113,14 +121,10 @@ header {
  .bakery-box {
     display: flex;
     gap: 200px;
-    margin: 0 auto;
+    
     
  }
- 
- .bekry-images {
-    position: relative;
-    margin-top: -50px;
- }
+
 
 .Shape {
     width: 341px;
@@ -164,7 +168,7 @@ header {
 .shape-down {
     position: absolute;
     margin-left: -700px;
-    margin-top: 950px
+    margin-top: 750px
 }
 
 
@@ -193,7 +197,7 @@ header {
         display: flex;
         justify-content: space-betweensss;
         margin: 0 auto;
-        gap: 190px;
+        gap: 150px;
         margin: 50px;
         align-items: baseline;
       }
@@ -213,13 +217,17 @@ header {
       .bakery-box {
         display: flex;
         flex-direction: column-reverse;
+        
       }
 
       .bekry-images {
         margin-top: -330px;
+        
+        
       }
       .bakery-info {
-        margin-top: -230px
+        margin-top: -230px;
+        
       }
 }
 
