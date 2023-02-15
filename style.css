@@ -219,17 +219,17 @@ header {
         margin-top: -330px;
       }
       .bakery-info {
-        margin-top: -230px;
+        margin-top: -230px
       }
 }
 
-
-.baking {
-    background: blue;
-    width: 100%;
-    height: 100vh;
-    position: relative;
+.baking-wrapper {
+  width: 100%;
+  background: rgb(238, 205, 143);
+  height: 100vh;
+  position: relative;
 }
+
 
 
 
