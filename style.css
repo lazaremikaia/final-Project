@@ -192,7 +192,7 @@ header {
     }
 
     .BKR-container {
-        width: 100%
+        width: 80%
     }
     .mobile-burger {
         display: block;
@@ -230,15 +230,22 @@ header {
       }
 
       .bekry-images {
-        margin-top: -330px;
+        margin-top: -200px;
+        margin-left: 70px;
+        max-width: 329px;
+       
         
         
       }
       .bakery-info {
-        margin-top: -230px;
+        margin-top: -400px;
+        
       }
 
       .shape-right {
+        display: none;
+      }
+      .shape-down {
         display: none;
       }
 }
