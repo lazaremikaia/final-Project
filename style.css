@@ -181,24 +181,15 @@ header {
 
 @media (max-width:1024px) {
     
-    body{
-      overflow-x: hidden;
-    }
-
-
-
     .bkr-list {
         display: none;
     }
     .contact-container{
         display: none;
     }
-    .BKR-wrapper{
-      width: 100%;
-    }
 
     .BKR-container {
-        width: 80%
+        width: 100%
     }
     .mobile-burger {
         display: block;
