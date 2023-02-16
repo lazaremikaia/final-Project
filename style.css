@@ -240,47 +240,48 @@ header {
       }
 
       .bakeryman {
-        width: 100%;
-        left: 60px;
+        width: 90%;
+        left: 130px;
         top: 450px;
         
       }
 
       .bekry-images {
-      width: 30%;
+      width: 50%;
       bottom: 500px;
-      left: 180px;
+      left: 100px
       
       }
       .Shape {
-        width: 100%;
-        right: 30px;
+        top: 350px;
+        width: 90%;
+        left: 80px
       }
       .bitmap {
-        width: 100%;
-        top: 350px;
-        
+        top: 300px;
+        width: 90%;
+        left: 50px;
       }
 
-      .oval {
-        width: 100%
+      .oval { 
+        left: 120px;
+        width: 90%;
+        top: 450px;
       }
 
-      .bakery-info {
-        width: 90%
-      }
+
 
       .shape-orange {
-        width: 90%;
-        top: 380px;
-        left: 130px;
+        width: 80%;
+        top: 350px;
+        left: 200px;
         
         
       }
       .combinedshape{
-        width: 60%;
-        right: 160px;
-
+       width: 60%;
+       top: 400px;
+       left: 50px;
       }
       .shape-right {
         display: none;
@@ -291,35 +292,37 @@ header {
       .down{
         width: 5%;
         bottom: 5px;
-        left: 380px;
+        left: 300px;
       }
 
 
 
       .freshbakery{
-        font-size: 25px;
         position: absolute;
-        width: 25%;
-        left: 200px;
+        font-size: 25px;
+        left: 150px;
         bottom: 150px;
+        width: 38%;
       }
 
       .date{
-        font-size: 15px;
+        font-size: 20px;
         position: absolute;
-        left: 200px;
-        bottom: 250px;
+        left: 150px;
+        bottom: 240px;
       }
 
       .blindtexts{
-        font-size: 15px;
-        width: 33%;
+        font-size: 20px;
         position: absolute;
-        bottom: 100px;
-        left: 200px;
+        bottom: 70px;
+        left: 150px;
       }
 
+
 }
+
+
 
 .baking-wrapper {
   width: 100%;
