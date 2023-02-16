@@ -82,20 +82,19 @@ header {
     background-color: black;
     margin-bottom: 10px;
   }
-
-
- 
+  
  .shapetop {
     left:  600px;
     position: absolute;
     top: 3px;
-    
+
  }
 
  .date {
     color: white;
     font-size: 20px;
     margin-top: 270px;
+    max-width: 1200px;
  }
  
  .freshbakery{
@@ -129,6 +128,7 @@ header {
   max-width: 1200px;
   position: relative;
 }
+
 
 
 
@@ -191,7 +191,9 @@ header {
   bottom: 20px;
   right: 620px;
 }
-
+.shapedown-box{
+  max-width: 1200px;
+}
 
 @media (max-width:1024px) {
     
@@ -240,19 +242,24 @@ header {
       .bakeryman {
         width: 100%;
         left: 60px;
+        top: 450px;
         
       }
 
       .bekry-images {
       width: 30%;
-      bottom: 450px;
+      bottom: 500px;
+      left: 180px;
       
       }
       .Shape {
-        width: 100%
+        width: 100%;
+        right: 30px;
       }
       .bitmap {
-        width: 100%
+        width: 100%;
+        top: 350px;
+        
       }
 
       .oval {
@@ -260,15 +267,20 @@ header {
       }
 
       .bakery-info {
-        width: 80%
+        width: 90%
       }
 
       .shape-orange {
-        width: 80%
+        width: 90%;
+        top: 380px;
+        left: 130px;
+        
         
       }
       .combinedshape{
-        width: 45%
+        width: 60%;
+        right: 160px;
+
       }
       .shape-right {
         display: none;
@@ -276,6 +288,37 @@ header {
       .shape-down {
         display: none;
       }
+      .down{
+        width: 5%;
+        bottom: 5px;
+        left: 380px;
+      }
+
+
+
+      .freshbakery{
+        font-size: 25px;
+        position: absolute;
+        width: 25%;
+        left: 200px;
+        bottom: 150px;
+      }
+
+      .date{
+        font-size: 15px;
+        position: absolute;
+        left: 200px;
+        bottom: 250px;
+      }
+
+      .blindtexts{
+        font-size: 15px;
+        width: 33%;
+        position: absolute;
+        bottom: 100px;
+        left: 200px;
+      }
+
 }
 
 .baking-wrapper {
