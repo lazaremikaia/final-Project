@@ -101,7 +101,7 @@ header {
  .freshbakery{
     font-size: 72px;
     color: white;
-    width: 446px;
+    max-width: 446px;
     margin-top: 35px;
     font-family: 'ultra';
     
@@ -115,7 +115,7 @@ header {
  .blindtexts {
     color: white;
     font-size: 20px;
-    width:400px;
+    max-width:400px;
     margin-top: 35px;
  }
 
@@ -126,7 +126,7 @@ header {
 
 .bekry-images {
   bottom: 200px;
-  max-width: 600px;
+  max-width: 1200px;
   position: relative;
 }
 
@@ -140,10 +140,9 @@ header {
 }
 
 .shape-orange {
-    width: 278px;
     position: absolute;
-    top: 380px;
-    left: 150px
+    top: 350px;
+    left: 170px
 
 }
 
@@ -163,8 +162,8 @@ header {
 
 .oval {
     position: absolute;
-    top: 500px;
-    left: 100px
+    top: 460px;
+    left: 40px;
 }
 
 .bakeryman{
@@ -175,20 +174,23 @@ header {
 
 .shape-down {
     position: absolute;
-    top: 850px;
-    right: 500px;
+    bottom: -50px;
+    right:  500px;
     
     
 }
 
 .shape-right {
   position: absolute;
-  width: 50px;
-  left: 820px;
-  top: 500px
-  
+  bottom:-100px;
+  left: 530px;
 }
 
+.down {
+  position: absolute;
+  bottom: 20px;
+  right: 620px;
+}
 
 
 @media (max-width:1024px) {
@@ -213,14 +215,12 @@ header {
 
       .nav-wrapper {
         display: flex;
-        justify-content: space-betweensss;
-        margin: 0 auto;
-        gap: 150px;
-        margin: 50px;
+        justify-content: space-between;
         align-items: baseline;
+        width: 100%;
       }
       .bkr {
-        width: 150px;
+        width: 100px;
       }
       .shapetop {
         display: none;
@@ -235,22 +235,41 @@ header {
       .bakery-box {
         display: flex;
         flex-direction: column-reverse;
+      }
+
+      .bakeryman {
+        width: 100%;
+        left: 60px;
         
       }
 
       .bekry-images {
-        margin-top: -200px;
-        margin-left: 70px;
-        max-width: 329px;
-       
-        
-        
+      width: 30%;
+      bottom: 450px;
+      
       }
-      .bakery-info {
-        margin-top: -400px;
-        
+      .Shape {
+        width: 100%
+      }
+      .bitmap {
+        width: 100%
       }
 
+      .oval {
+        width: 100%
+      }
+
+      .bakery-info {
+        width: 80%
+      }
+
+      .shape-orange {
+        width: 80%
+        
+      }
+      .combinedshape{
+        width: 45%
+      }
       .shape-right {
         display: none;
       }
