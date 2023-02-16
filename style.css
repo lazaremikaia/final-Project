@@ -205,7 +205,9 @@ header {
     }
 
     .BKR-container {
-        width: 100%
+        width: 100%;
+        height: 90vh;
+        
     }
     .mobile-burger {
         display: block;
@@ -241,7 +243,7 @@ header {
 
       .bakeryman {
         width: 90%;
-        left: 130px;
+        left: 150px;
         top: 450px;
         
       }
@@ -249,7 +251,7 @@ header {
       .bekry-images {
       width: 50%;
       bottom: 500px;
-      left: 100px
+      left: 10px
       
       }
       .Shape {
@@ -274,7 +276,7 @@ header {
       .shape-orange {
         width: 80%;
         top: 350px;
-        left: 200px;
+        left: 150px;
         
         
       }
@@ -292,7 +294,7 @@ header {
       .down{
         width: 5%;
         bottom: 5px;
-        left: 300px;
+        left: 280px;
       }
 
 
