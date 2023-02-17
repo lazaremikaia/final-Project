@@ -16,6 +16,7 @@
                         <img class="bkr" src="./images/BKR.png" alt="BKR">
                     </div>
                     <div>
+                        
                         <nav class="bkr-list">
                             <ul>
                                 <li>
@@ -36,11 +37,17 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="mobile-burger">
-                        <div class="burger-item"></div>
-                        <div class="burger-item"></div>
-                        <div class="burger-item"></div>
+                    <div class="mobile-burger" id="toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
+                    <nav id="show-nav" class="mobile-navigation hide">
+                        <ul>
+                            <li>Home</li>
+                            <li>About us</li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="contact-container">
                     <span class="contact-wrapper"> contact </span>
@@ -69,7 +76,7 @@
                         <img class="bitmap" src="./images/Bitmap.png" alt="bitmap">
                         <img class="oval" src="./images/Oval.png" alt="Oval">
                         <img class="bakeryman" src="./images/bakeryman.png" alt="bakeryman">
-                        <img class="shape-right" src="./images/shape-right.png" alt="shape-right">
+                        
                 </div>
 
             <div class="shapedown-box">
@@ -84,6 +91,52 @@
 
         </div>
      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    const toggle = document.getElementById("toggle")
+    const showNav = document.getElementById("show-nav")
+
+    toggle.addEventListener('click', () => {
+        showNav.classList.toggle('show')
+        showNav.classList.toggle('hide')
+    })
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>

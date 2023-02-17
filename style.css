@@ -70,19 +70,57 @@ header {
  }
 
  .mobile-burger {
-    display: none;
-    cursor: pointer;
-    background-color: orange;
-    padding: 15px;
-    border-radius: 50%;
+   display: none;
+   flex-direction: column;
+   background: orange;
+   border-radius: 50%;
+   padding: 15px;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   
   }
-  .burger-item {
-    width: 48px;
-    height: 3px;
-    background-color: black;
+  .mobile-burger span {
+    height: 2px;
+    width: 50px;
+    background-color:black;
     margin-bottom: 10px;
   }
-  
+
+  .mobile-burger span:last-child {
+    margin-bottom: 0;
+  }
+
+  .hide {
+    left: -200%;
+  }
+
+  .show {
+    left: 0;
+    
+  }
+
+  .mobile-navigation {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    top: 80px;
+    height: 84.5%;
+    z-index: 1;
+    transition: left 0.3s linear;
+  }
+.mobile-navigation ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mobile-navigation ul li {
+  font-size: 50px;
+}
+
  .shapetop {
     left:  600px;
     position: absolute;
@@ -129,7 +167,11 @@ header {
   position: relative;
 }
 
-
+.mobile-navigation {
+  width: 100%;
+  top: 45px;
+  height: 90%;
+}
 
 
 .Shape {
@@ -180,11 +222,7 @@ header {
     
 }
 
-.shape-right {
-  position: absolute;
-  bottom:-100px;
-  left: 530px;
-}
+
 
 .down {
   position: absolute;
@@ -209,18 +247,16 @@ header {
         height: 90vh;
         
     }
-    .mobile-burger {
-        display: block;
-        cursor: pointer;
-        background-color: orange;
-        padding: 15px;
-        border-radius: 50%;
-      }
+    .mobile-burger{
+      display: flex;
+      
+      
+      
+    }
 
       .nav-wrapper {
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
         width: 100%;
       }
       .bkr {
@@ -285,16 +321,14 @@ header {
        top: 400px;
        left: 50px;
       }
-      .shape-right {
-        display: none;
-      }
+
       .shape-down {
         display: none;
       }
       .down{
-        width: 5%;
+        width: 10%;
         bottom: 5px;
-        left: 280px;
+        left: 250px;
       }
 
 
