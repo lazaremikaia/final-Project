@@ -276,7 +276,8 @@ margin-top: 200px;
 .bitmap-black{
   position: absolute;
   right: 120px;
-  top: 90px;
+  top: 100px;
+  max-width: 400px;
 }
 
 .CombinedShape-black {
@@ -591,7 +592,7 @@ font-family: 'ultra';
     }
     .baking-img{
       
-      width: 60%
+      width: 90%
     }
     .shape3{
       width: 100%
