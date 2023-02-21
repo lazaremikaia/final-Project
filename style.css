@@ -150,6 +150,10 @@ header {
     font-family:'ultra';
     src: url(./font/Ultra-Regular.ttf);
   }
+  @font-face {
+    font-family: "oswald";
+    src: url(./font/Oswald-VariableFont_wght.ttf);
+  }
 
  .blindtexts {
     color: white;
@@ -452,9 +456,242 @@ font-family: 'ultra';
 .bread {
   position: absolute;
   top: 100px;
+}
+
+.story-container{
+ position: relative;
+  max-width: 1200px;
+  height: 60vh;
+  margin: 0 auto;
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.video-story {
+  position: relative;
+  max-width: 1200px;
+  left: 80px;
+}
+ .combinedshape2{
+ margin-top: 200px;
+ 
+ }
+
+ .baking-video{
+  position: absolute;
+  border-radius: 20%;
+  top: 250px;
+  left: 30px;
+  
+ }
+
+ .video-title{
+  position: relative;
+  max-width: 1200px;
+  top: 150px;
+  left: 100px;
+ }
+.video-shape{
+  position: absolute;
+  left: 80px;
+
+}
+ 
+
+ .video-title h4{
+  color: white;
+  position: absolute;
+  bottom: 630px;
+  left: 170px;
+ 
+ }
+ .video-title p{
+  color: white;
+  font-family: "ultra";
+  font-size: 56px;
+  max-width: 500px;
+  margin-top: 125px;
+  margin-left: 150px;
+
+ }
+
+ .video-shape1{
+  position: absolute;
+  bottom: 290px;
+  right: 360px;
+  
+ }
+
+.Products-wrapper{
+  background: rgb(245, 211, 142);
+  width: 100%;
+  height: 120vh;
+}
+
+
+.Products-container{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+
+
+.ourproducts{
+padding: 30px;
+}
+.bakedfresh{
+  font-size: 56px;
+  max-width: 519px;
+  font-family: "ultra";
+  padding: 30px;
+  
+  
+}
+
+.productstitle{
+  display: grid;
+  grid-template-columns: 450px 450px 450px  ;
+  grid-auto-rows: 500px;
+  grid-template-areas: 
+  "homemadebread homemadebread bread"
+  "cuocake biscuit brioche";
+  gap: 5px;
+  margin-top: 50px;
+  
+}
+
+.grid-item{
+  background: white
+}
+
+.homemadebread{
+  grid-area: homemadebread;
+  background-image: url(./images/homamadebread.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+
+.homamadetitle{
+  display: flex;
+  margin-top: 300px;
+  margin-left: 40px;
+  line-height: 40px;
+}
+
+
+
+
+
+.breadtitle{
+  grid-area: bread;
+  
+}
+.cupcake{
+  grid-area: cuocake;
+}
+.biscuit{
+  grid-area: biscuit;
+}
+
+.brioche{
+  grid-area: brioche;
+}
+
+
+
+.homemadebread h4 {
+  font-size: 25px;
+  color: white;
+}
+.homebread{
+  color: white;
+  font-size: 46px;
+  font-family: "ultra";
+  
+}
+.flows{
+  color: white;
+  max-width: 322px;
+}
+.num9{
+  color: white;
+  font-size: 30px;
+  font-family: "ultra";
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+
+.breadtitle img {
+  width: 100%;
+  height: 27vh;
+  object-fit: cover;
+}
+
+.cupcake img{
+  width: 100%;
+  height: 27vh;
+  object-fit: cover;
+}
+.biscuit img{
+  width: 100%;
+  height: 27vh;
+  object-fit: cover;
+}
+.brioche img {
+  width: 100%;
+  height: 27vh;
+  object-fit: cover;
+}
+
+.title1{
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.title2{
+  font-size: 24px;
+  font-family: "oswald";
+}
+.numbs{
+ font-size: 40px;
+ font-family: "ultra";
+ margin-left: 230px;
+ margin-top: 55px;
 
 }
 
+.flex{
+  display: flex;
+}
+.explore-wrapper{
+  margin-top: 50px;
+  margin-left: 600px;
+  
+}
+
+.explore {
+  color: white;
+  border: 1px solid grey;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+
+.work-wrapper{
+  background: black;
+  width: 100%; 
+  
+}
+
+.work-container{
+  max-width: 1200px;
+  height: 100vh;
+}
 
 @media (max-width:1024px) {
     
@@ -674,14 +911,6 @@ font-family: 'ultra';
         left: 50px;
 
       }
-
-
-
-
-
-
-
-
 
     .fresh{
       display: none;
