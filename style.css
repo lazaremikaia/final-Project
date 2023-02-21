@@ -494,7 +494,7 @@ font-family: 'ultra';
  }
 .video-shape{
   position: absolute;
-  left: 80px;
+  left: px;
 
 }
  
@@ -502,8 +502,8 @@ font-family: 'ultra';
  .video-title h4{
   color: white;
   position: absolute;
-  bottom: 630px;
-  left: 170px;
+  bottom: 500px;
+  left: 100px;
  
  }
  .video-title p{
@@ -518,7 +518,7 @@ font-family: 'ultra';
 
  .video-shape1{
   position: absolute;
-  bottom: 290px;
+  bottom: 160px;
   right: 360px;
   
  }
@@ -553,8 +553,8 @@ padding: 30px;
 
 .productstitle{
   display: grid;
-  grid-template-columns: 450px 450px 450px  ;
-  grid-auto-rows: 500px;
+  grid-template-columns: 300px 300px 300px  ;
+  grid-auto-rows: 300px;
   grid-template-areas: 
   "homemadebread homemadebread bread"
   "cuocake biscuit brioche";
@@ -574,19 +574,10 @@ padding: 30px;
   background-size: 100%
 }
 
-.homamadetitle{
-  display: flex;
-  margin-top: 300px;
-  margin-left: 40px;
-  line-height: 40px;
-}
-
-
-
-
 
 .breadtitle{
   grid-area: bread;
+
   
 }
 .cupcake{
@@ -600,15 +591,22 @@ padding: 30px;
   grid-area: brioche;
 }
 
+.homamadetitle{
+  display: flex;
+  margin-top: 120px;
 
+}
+
+.homemadeinfo{
+  margin-top: 50px;
+}
 
 .homemadebread h4 {
-  font-size: 25px;
   color: white;
 }
 .homebread{
   color: white;
-  font-size: 46px;
+  font-size: 40px;
   font-family: "ultra";
   
 }
@@ -618,38 +616,38 @@ padding: 30px;
 }
 .num9{
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "ultra";
-  margin-left: 250px;
   margin-top: 100px;
+  margin-left: 60px;
 }
 
 
 .breadtitle img {
   width: 100%;
-  height: 27vh;
+  height: 20vh;
   object-fit: cover;
 }
 
 .cupcake img{
   width: 100%;
-  height: 27vh;
+  height: 20vh;
   object-fit: cover;
 }
 .biscuit img{
   width: 100%;
-  height: 27vh;
+  height: 20vh;
   object-fit: cover;
 }
 .brioche img {
   width: 100%;
-  height: 27vh;
+  height: 20vh;
   object-fit: cover;
 }
 
 .title1{
   font-size: 16px;
-  margin-top: 50px;
+  
 }
 
 .title2{
@@ -657,10 +655,10 @@ padding: 30px;
   font-family: "oswald";
 }
 .numbs{
- font-size: 40px;
+ font-size: 30px;
  font-family: "ultra";
- margin-left: 230px;
- margin-top: 55px;
+  margin-top: 50px;
+  margin-left: 120px;
 
 }
 
@@ -669,15 +667,15 @@ padding: 30px;
 }
 .explore-wrapper{
   margin-top: 50px;
-  margin-left: 600px;
+  margin-left: 500px;
   
 }
 
 .explore {
   color: white;
   border: 1px solid grey;
-  font-size: 20px;
-  padding: 15px;
+  font-size: 15px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -691,7 +689,340 @@ padding: 30px;
 .work-container{
   max-width: 1200px;
   height: 100vh;
+  position: relative;
+  margin: 0 auto;
 }
+
+.contact-work{
+  max-width: 284px;
+  background: white;
+  height: 30vh;
+  text-align: left;
+}
+
+.process-wrapper{
+  margin-top: 300px;
+  
+  text-align: center;
+}
+
+
+
+.process{
+  color: white;
+  font-size: 11px;
+  padding: 10px;
+}
+.workititle{
+  color: rgb(255, 255, 255);
+  font-family: "ultra";
+  font-size: 40px;
+  
+}
+
+
+
+
+.work-ph{
+  max-width: 204px;
+  margin-left: 20px;
+}
+
+.work-h4{
+  font-size: 35px;
+  font-family: "ultra";
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+
+.numwork{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+
+
+
+.baking-work{
+  max-width: 284px;
+  background: rgb(113, 168, 113);
+  height: 34vh;
+  margin-top: -20px;
+  
+}
+.work-title {
+  margin-top: 143px;
+}
+
+
+.baking-work img{
+  position: absolute;
+  left: 327px;
+  top: -20px;
+  width: 10%;
+
+}
+
+
+
+.dilivery-work{
+  max-width: 284px;
+  background: white;
+  height: 30vh;
+}
+.tasty-work{
+  max-width: 284px;
+  background: white;
+  height: 30vh;
+}
+.work-process{
+  display: flex;
+  top: 200px;
+  position: relative;
+  left: 200px;
+  
+}
+
+
+.shape-work2{
+  position: absolute;
+  left: 1150px;
+}
+
+.combined-work{
+  position: absolute;
+  left: 1240px;
+  bottom: 50px;
+}
+
+
+
+
+.grid-item {
+  background-color: white;
+}
+
+
+.recipes-wrapper{
+  background: black;
+  width: 100%;
+}
+
+.recipes-container{
+  width: 1200px;
+  height: 120vh;
+  margin: 0 auto;
+}
+.recipes-title {
+
+  display: flex;
+  justify-content: space-between;
+  
+}
+.recipes-title h5{
+  color: white;
+  margin-top: 100px;
+
+}
+
+.recipes-title h3{
+  color: white;
+  font-size: 56px;
+  font-family: "ultra";
+  max-width: 617px;
+  margin-top: 150px;
+}
+
+
+
+.delicious-wrapper{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px ;
+  grid-auto-rows: 300px;
+  grid-template-areas:
+  "delicious-bread delicious-bread flake-bread biscoff-cake"
+  "delicious-bread delicious-bread peanut malted-bread";
+  gap: 10px;
+  
+}
+
+.delicious-bread{
+  grid-area: delicious-bread;
+}
+
+.delicious-img{
+  width: 100%
+}
+
+.delicious-bread h3{
+ font-size: 40px;
+ font-family: "ultra";
+ margin-top: 20px;
+ margin-left: 50px;
+}
+
+.delicious-bread h4{
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.place{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.place p{
+  max-width: 322px;
+  
+}
+.time{
+  display: flex;
+  gap: 10px;
+}
+.time p{
+  font-size: 20px;
+}
+.flake-bread{
+  grid-area: flake-bread;
+}
+
+.flake-img{
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.bakery-recipes{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  
+}
+
+.time-2{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.recipes-ph{
+  max-width: 130px;
+  margin-left: 45px;
+  
+}
+.biscoff-cake{
+  grid-area: biscoff-cake;
+}
+.biscoff-img{
+  width: 100%;
+  height: 20vh;
+}
+.peanut{
+  grid-area: peanut;
+}
+.peanut-img{
+  width: 100%;
+  height: 20vh;
+}
+
+
+.malted-bread{
+  grid-area: malted-bread;
+}
+.malted-img{
+  width: 100%;
+  height: 20vh;
+}
+
+.grid-item {
+  background-color: white;
+}
+
+.baker-wrapper{
+  width: 100%;
+  background: rgb(245, 211, 142);
+  height: 100vh;
+  
+  
+}
+
+
+.baker-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  height: 100vh;
+  
+}
+.flex-baker{
+  display: flex;
+  align-items: center;
+}
+.baker{
+  margin-top: 80px;
+}
+
+.baker h3{
+  font-size: 56px;
+  font-family: "ultra";
+  margin-top: 15px;
+  max-width: 570px;
+}
+
+
+.baker-info{
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+  line-height:32px
+}
+.baker-persons{
+  font-family: "oswald"
+}
+.baker-name{
+  font-family: "oswald";
+  font-size: 24px;
+}
+.baker-info p{
+  max-width: 370px;
+}
+.arrows-img{
+  margin-top: 50px;
+}
+
+.baker-img{
+  position: relative;
+  top: 150px;
+}
+
+
+.shapebaker{
+ 
+}
+
+.baker-stina{
+  position: absolute;
+  height: 65vh;
+  left: 50px;
+  top: 
+  
+  
+}
+
+.combinedbaker{
+ position: absolute;
+ left: -20px;
+}
+
+.shapebaker2{
+position: absolute;
+top: -130px; 
+left: 250px;
+
+}
+
+
 
 @media (max-width:1024px) {
     
