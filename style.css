@@ -855,7 +855,10 @@ padding: 30px;
 }
 
 .delicious-img{
-  width: 100%
+  width: 100%;
+  height: 30vh;
+  
+  
 }
 
 .delicious-bread h3{
@@ -883,6 +886,7 @@ padding: 30px;
 .time{
   display: flex;
   gap: 10px;
+  
 }
 .time p{
   font-size: 20px;
@@ -1079,7 +1083,7 @@ left: 250px;
 
     .bekry-images {
     width: 50%;
-    bottom: 400px;
+    bottom: 450px;
     left: 10px
     
     }
@@ -1291,7 +1295,7 @@ left: 250px;
 
 
     .Products-wrapper{
-      height: 240vh;
+      height: 250vh;
     }
 
     .productstitle{
@@ -1386,7 +1390,7 @@ left: 250px;
 }
 
 .baking-work img{
-  left: 300px;
+  left: 280px;
   width: 15%;
 }
 
@@ -1399,10 +1403,53 @@ left: 250px;
 
 .recipes-container{
   width: 100%;
-  height: 100vh;
+  height: 250vh;
 }
 
 
 
+.delicious-wrapper{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-auto-rows: 300px;
+  grid-template-areas:
+  "delicious-bread" 
+   "flake-bread" 
+   "biscoff-cake"
+   "peanut"
+   "malted-bread";
+  gap: 10px;
+  
+}
+
+.delicious-bread img{
+  height: 10vh;
+  object-fit: cover;
+}
+
+
+.place{
+  margin-top: 20px;
+  font-size: 10px;
+  margin-left: 20px;
+}
+.time{
+  width: 10%
+}
+.time-2{
+  margin-left: 50px;
+}
+.time img{
+  width: 30%;
+  height: 3vh;
+}
+.recipes-title h3{
+ width: 60%;
+}
+
+.recipes-title h5{
+  position: absolute;
+  
+}
 
 }
