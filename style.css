@@ -464,7 +464,6 @@ font-family: 'ultra';
   height: 60vh;
   margin: 0 auto;
   display: flex;
-  
   justify-content: space-between;
 }
 
@@ -997,9 +996,7 @@ padding: 30px;
 }
 
 
-.shapebaker{
- 
-}
+
 
 .baker-stina{
   position: absolute;
@@ -1157,14 +1154,18 @@ left: 250px;
     }
 
 
+    .baking-wrapper{
+      width: 100%;
+      height: 140vh;
+    }
     .baking-container{
       width: 100%;
-      
-      
+      height: 140vh;
     }
     .baking-img{
-      
-      width: 90%
+      position: relative;
+      width: 100%;
+      top: -130px;
     }
     .shape3{
       width: 80%
@@ -1183,15 +1184,13 @@ left: 250px;
       }
       .bakeryspecial{
         width: 65%;
-        top: 500px;
+        top: 400px;
         
       }
 
       .baking-about{
-        
-        top: 600px;
-        left: 70px;
-        
+        margin-top: -230px;
+        margin-left: 30px;
       }
 
       .about-us{
@@ -1211,10 +1210,7 @@ left: 250px;
       .sevenversalia{
         width: 48%;
       }
-      .title-baking{
-        position: relative;
-        top: 360px
-      }
+      
       .making-fresh{
         top: 150px;
         position: absolute;
@@ -1225,8 +1221,9 @@ left: 250px;
       }
       .tasty{
         position: absolute;
-        top: 500px;
+        top: 300px;
         width: 100%;
+        
       }
       .tasty h4{
         font-size: 40px;
