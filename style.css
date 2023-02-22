@@ -974,7 +974,7 @@ padding: 30px;
   font-size: 56px;
   font-family: "ultra";
   margin-top: 15px;
-  max-width: 570px;
+  max-width: 500px;
 }
 
 
@@ -1493,5 +1493,9 @@ left: 250px;
 .baker-info{
   width: 50%;
 }
+.baker h3{
+ font-size: 30px;
+}
+
 
 }
