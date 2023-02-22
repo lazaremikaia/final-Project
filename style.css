@@ -1390,7 +1390,7 @@ left: 250px;
 }
 
 .baking-work img{
-  left: 280px;
+  left: 260px;
   width: 15%;
 }
 
@@ -1450,6 +1450,48 @@ left: 250px;
 .recipes-title h5{
   position: absolute;
   
+}
+
+.baker-container{
+  width: 100%;
+}
+.baker-wrapper{
+  height: 180vh;
+}
+.flex-baker{
+  display: flex;
+  flex-direction: column;
+  
+}
+.baker-img{
+  width: 20%;
+}
+
+.shapebaker{
+  position: absolute;
+  width: 100%
+}
+
+.baker-img{
+  width: 50%;
+}
+
+.baker-stina{
+  width: 100%;
+  height: 40vh;
+}
+.combinedbaker{
+  width: 50%;
+}
+
+.shapebaker2{
+  width: 50%;
+  position: absolute;
+  left: 50px;
+  top: -50px;
+}
+.baker-info{
+  width: 50%;
 }
 
 }
