@@ -1,243 +1,243 @@
 *{
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
-
+ 
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .BKR-wrapper {
-  background: rgb(27, 26, 26);
-  width: 100%;
-  
-  
+    background: rgb(27, 26, 26);
+    width: 100%;
+    
+    
 }
 
 .BKR-container {
-  max-width: 1200px;
-  position: relative;
-  margin: 0 auto;
-  height: 100vh;
-  
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    height: 100vh;
+    
 }
 
 
 ul {
-  display: flex;
-  
+    display: flex;
+    
 }
 
 ul li {
-  color: white;
-  padding: 10px;
-  text-decoration: none;
-  list-style: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
 }
 
 ul li a {
-color: white;
-text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .nav-wrapper {
-  display: flex;
-  gap: 100px;
-  margin-top: 20px;
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
 }
 
 .contact-wrapper{
-  color: white;
-  border: 1px solid grey;
-  font-size: 25px;
-  padding: 15px;
-  text-align: center;
+    color: white;
+    border: 1px solid grey;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
 }
 
 
 
 
 header {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contact-container {
-  margin-top: 20px;
+    margin-top: 20px;
 }
-nav{
-  margin-top: 35px;
-}
+ nav{
+    margin-top: 35px;
+ }
 
-.mobile-burger {
- display: none;
- flex-direction: column;
- background: orange;
- border-radius: 50%;
- padding: 15px;
- align-items: center;
- justify-content: center;
- cursor: pointer;
- 
-}
-.mobile-burger span {
-  height: 2px;
-  width: 50px;
-  background-color:black;
-  margin-bottom: 10px;
-}
+ .mobile-burger {
+   display: none;
+   flex-direction: column;
+   background: orange;
+   border-radius: 50%;
+   padding: 15px;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   
+  }
+  .mobile-burger span {
+    height: 2px;
+    width: 50px;
+    background-color:black;
+    margin-bottom: 10px;
+  }
 
-.mobile-burger span:last-child {
-  margin-bottom: 0;
-}
+  .mobile-burger span:last-child {
+    margin-bottom: 0;
+  }
 
-.hide {
-  left: -200%;
-  opacity: 0;
-}
+  .hide {
+    left: -200%;
+    opacity: 0;
+  }
 
-.show {
-  left: 0;
-  opacity: 1;
-  
-}
+  .show {
+    left: 0;
+    opacity: 1;
+    
+  }
 
-.mobile-navigation {
-  position: absolute;
-  background-color: black;
-  width: 100%;
-  top: 80px;
-  height: 84.5%;
-  z-index: 1;
-  transition: left 0.3s linear;
-}
+  .mobile-navigation {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    top: 80px;
+    height: 84.5%;
+    z-index: 1;
+    transition: left 0.3s linear;
+  }
 .mobile-navigation ul {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .mobile-navigation ul li {
-font-size: 50px;
+  font-size: 50px;
 }
 
-.shapetop {
-  left:  600px;
-  position: absolute;
-  top: 3px;
+ .shapetop {
+    left:  600px;
+    position: absolute;
+    top: 3px;
 
-}
+ }
 
-.date {
-  color: white;
-  font-size: 20px;
-  margin-top: 270px;
-  max-width: 1200px;
-}
+ .date {
+    color: white;
+    font-size: 20px;
+    margin-top: 270px;
+    max-width: 1200px;
+ }
+ 
+ .freshbakery{
+    font-size: 72px;
+    color: white;
+    max-width: 446px;
+    margin-top: 35px;
+    font-family: 'ultra';
+    
+ }
 
-.freshbakery{
-  font-size: 72px;
-  color: white;
-  max-width: 446px;
-  margin-top: 35px;
-  font-family: 'ultra';
-  
-}
+  @font-face {
+    font-family:'ultra';
+    src: url(./font/Ultra-Regular.ttf);
+  }
+  @font-face {
+    font-family: "oswald";
+    src: url(./font/Oswald-VariableFont_wght.ttf);
+  }
 
-@font-face {
-  font-family:'ultra';
-  src: url(./font/Ultra-Regular.ttf);
-}
-@font-face {
-  font-family: "oswald";
-  src: url(./font/Oswald-VariableFont_wght.ttf);
-}
+ .blindtexts {
+    color: white;
+    font-size: 20px;
+    max-width:400px;
+    margin-top: 35px;
+ }
 
-.blindtexts {
-  color: white;
-  font-size: 20px;
-  max-width:400px;
-  margin-top: 35px;
-}
-
-.bakery-box {
-  display: flex;
-  gap: 150px;
-  
-}
+ .bakery-box {
+    display: flex;
+    gap: 150px;
+    
+ }
 
 .bekry-images {
-bottom: 200px;
-max-width: 1200px;
-position: relative;
+  bottom: 200px;
+  max-width: 1200px;
+  position: relative;
 }
 
 .mobile-navigation {
-width: 100%;
-top: 45px;
-height: 90%;
+  width: 100%;
+  top: 45px;
+  height: 90%;
 }
 
 
 .Shape {
- position: absolute;
-  top: 418px;
-  width: 341px;
-  
+   position: absolute;
+    top: 418px;
+    width: 341px;
+    
 }
 
 .shape-orange {
-  position: absolute;
-  top: 350px;
-  left: 170px
+    position: absolute;
+    top: 350px;
+    left: 170px
 
 }
 
 .combinedshape {
-  width: 160px;
-  top: 500px;
-  position: absolute;
-  
-  
+    width: 160px;
+    top: 500px;
+    position: absolute;
+    
+    
 }
 
 .bitmap{
-  position: absolute;
-  width: 343px;
-  top: 300px;
+    position: absolute;
+    width: 343px;
+    top: 300px;
 }
 
 .oval {
-  position: absolute;
-  top: 460px;
-  left: 40px;
+    position: absolute;
+    top: 460px;
+    left: 40px;
 }
 
 .bakeryman{
-  width: 480px;
-  position: absolute;
-  top: 400px;
+    width: 480px;
+    position: absolute;
+    top: 400px;
 }
 
 .shape-down {
-  position: absolute;
-  bottom: -50px;
-  right:  500px;
-  
-  
+    position: absolute;
+    bottom: -50px;
+    right:  500px;
+    
+    
 }
 
 
 
 .down {
-position: absolute;
-bottom: 20px;
-right: 620px;
+  position: absolute;
+  bottom: 20px;
+  right: 620px;
 }
 .shapedown-box{
-max-width: 1200px;
+  max-width: 1200px;
 }
 
 
@@ -245,31 +245,31 @@ max-width: 1200px;
 
 
 .baking-wrapper{
-width: 100%;
-background: rgb(245, 211, 142);
-height: 100vh;
-position: absolute;
+  width: 100%;
+  background: rgb(245, 211, 142);
+  height: 100vh;
+  position: absolute;
 }
 
 .baking-container {
-max-width: 1200px;
-height: 100vh;
-margin: 0 auto;
-position: relative;
-
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  
 }
 
 .baking-box{
-display: flex;
-gap: 150px;
+  display: flex;
+  gap: 150px;
 }
 
 
-
+  
 .baking-img{
-position: relative;
-max-width: 1200px;
-left: 25px;
+  position: relative;
+  max-width: 1200px;
+  left: 25px;
 }
 
 .shape3{
@@ -278,58 +278,58 @@ margin-top: 200px;
 }
 
 .bitmap-black{
-position: absolute;
-right: 120px;
-top: 100px;
-max-width: 400px;
+  position: absolute;
+  right: 120px;
+  top: 100px;
+  max-width: 400px;
 }
 
 .CombinedShape-black {
-position: absolute;
-top: 200px;
-left: 370px;
-max-width: 200px;
+  position: absolute;
+  top: 200px;
+  left: 370px;
+  max-width: 200px;
 }
 .bakeryspecial{
-position: absolute;
-top: 450px;
-left: 90px;
-
+  position: absolute;
+ top: 450px;
+ left: 90px;
+  
 }
 
 .special-moments{
-font-family: 'ultra';
-font-size: 56px;
+  font-family: 'ultra';
+  font-size: 56px;
 }
 
 
 
 .baking-about{
-margin-top: 180px;
-
+  margin-top: 180px;
+  
 }
 
 .about-us {
-font-size: 20px;
+  font-size: 20px;
 }
-
+ 
 
 .num01{
-font-size: 20px;
-margin-top: 20px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 .viewback{
-font-size: 20px;
-margin-top: 20px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 .sevenversalia{
-font-size: 20px;
-width: 400px;
-line-height: 32px;
-margin-top: 20px;
-
+  font-size: 20px;
+  width: 400px;
+  line-height: 32px;
+  margin-top: 20px;
+  
 }
 
 .skyline {
@@ -339,13 +339,11 @@ margin-top: 50px;
 
 
 .Pityful{
-font-size: 20px;
-margin-top: 30px;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
-.arrows {
-display: none;
-}
+
 
 .onherway {
 margin-top: 30px;
@@ -354,12 +352,12 @@ font-size: 20px;
 }
 
 .title-baking{
-text-align: center;
+  text-align: center;
 }
 
 .features {
-padding: 50px;
-font-size: 20px;
+  padding: 50px;
+  font-size: 20px;
 }
 
 .bakinglove{
@@ -367,174 +365,179 @@ font-size: 56px;
 font-family: 'ultra';
 }
 
-
+.bakingwithlov-container{
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
 
 .bakingwithlove{
-width: 100%;
-background: rgb(245, 211, 142);
-height: 100vh;
+  width: 100%;
+  background: rgb(245, 211, 142);
+  height: 100vh;
 }
 
 .making-fresh{
-display: flex;
-position: relative;
-top: 100px;
-
+  display: flex;
+  position: relative;
+  top: 100px;
+  
 }
 
 .fresh{
-background: white;
-height: 40vh;
-margin-top: 25px;
-width: 350px;
-
+  background: white;
+  height: 40vh;
+  margin-top: 25px;
+  width: 350px;
+  
 }
 
 .fresh p {
-font-family: 'ultra';
-font-size: 40px;
-margin-top: 70px;
-margin-left: 50px;
+  font-family: 'ultra';
+  font-size: 40px;
+  margin-top: 70px;
+  margin-left: 50px;
 }
 .cofe{
-margin-left: 50px;
-margin-top: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 .natural{
-background: white;
-height: 40vh;
-margin-top: 25px;
-
+  background: white;
+  height: 40vh;
+  margin-top: 25px;
+  
 }
 
 .tasty {
-background: rgba(4, 82, 10, 0.623);
-height: 45vh;
+  background: rgba(4, 82, 10, 0.623);
+  height: 45vh;
 }
 
 .cake{
-margin-top: 50px;
-margin-left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .natural h5 {
-font-size: 40px;
-font-family: 'ultra';
-margin-top: 60px;
+  font-size: 40px;
+  font-family: 'ultra';
+  margin-top: 60px;
 }
 
 .natural p{
-max-width: 306px;
-font-size: 20px;
-line-height: 30px;
-margin-top: 30px;
+  max-width: 306px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 30px;
 }
 
 
 .tasty h4{
-font-size: 40px;
-font-family: 'ultra';
-margin-top: 230px;
-margin-left: 40px;
+  font-size: 40px;
+  font-family: 'ultra';
+  margin-top: 230px;
+  margin-left: 40px;
 
 }
 
 .tasty p {
-max-width: 306px;
-font-size: 20px;
-margin-left: 50px;
-margin-top: 30px;
+  max-width: 306px;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 30px;
 }
 
 
 .bitmap-orange{
-position: absolute;
-right: 190px;
-
+  position: absolute;
+  right: 190px;
+  
 }
 .bread {
-position: absolute;
-top: 100px;
+  position: absolute;
+  top: 100px;
 }
 
 .story-container{
-position: relative;
-max-width: 1200px;
-height: 60vh;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
+ position: relative;
+  max-width: 1200px;
+  height: 60vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .video-story {
-position: relative;
-max-width: 1200px;
-left: 80px;
+  position: relative;
+  max-width: 1200px;
+  left: 80px;
 }
-.combinedshape2{
-margin-top: 200px;
+ .combinedshape2{
+ margin-top: 200px;
+ 
+ }
 
-}
+ 
+ .baking-video{
+  position: absolute;
+  border-radius: 20%;
+  top: 250px;
+  left: 30px;
+  
+ }
 
-
-.baking-video{
-position: absolute;
-border-radius: 20%;
-top: 250px;
-left: 30px;
-
-}
-
-.video-title{
-position: relative;
-max-width: 1200px;
-top: 150px;
-left: 100px;
-}
+ .video-title{
+  position: relative;
+  max-width: 1200px;
+  top: 150px;
+  left: 100px;
+ }
 .video-shape{
-position: absolute;
-
-
-}
-
-
-.video-title h4{
-color: white;
-position: absolute;
-bottom: 500px;
-left: 100px;
+  position: absolute;
+  
 
 }
-.video-title p{
-color: white;
-font-family: "ultra";
-font-size: 56px;
-max-width: 500px;
-margin-top: 125px;
-margin-left: 150px;
+ 
 
-}
+ .video-title h4{
+  color: white;
+  position: absolute;
+  bottom: 500px;
+  left: 100px;
+ 
+ }
+ .video-title p{
+  color: white;
+  font-family: "ultra";
+  font-size: 56px;
+  max-width: 500px;
+  margin-top: 125px;
+  margin-left: 150px;
 
-.video-shape1{
-position: absolute;
-bottom: 160px;
-right: 360px;
+ }
 
-}
+ .video-shape1{
+  position: absolute;
+  bottom: 160px;
+  right: 360px;
+  
+ }
 
 .Products-wrapper{
-background: rgb(245, 211, 142);
-width: 100%;
-height: 120vh;
+  background: rgb(245, 211, 142);
+  width: 100%;
+  height: 120vh;
 }
 
 
 .Products-container{
-width: 1200px;
-margin: 0 auto;
-position: relative;
-
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  
 }
 
 
@@ -543,479 +546,479 @@ position: relative;
 padding: 30px;
 }
 .bakedfresh{
-font-size: 56px;
-max-width: 519px;
-font-family: "ultra";
-padding: 30px;
-
-
+  font-size: 56px;
+  max-width: 519px;
+  font-family: "ultra";
+  padding: 30px;
+  
+  
 }
 
 .productstitle{
-display: grid;
-grid-template-columns: minmax(300px 300px 300px );
-grid-auto-rows: 300px;
-grid-template-areas: 
-"homemadebread homemadebread bread"
-"cuocake biscuit brioche";
-gap: 5px;
-margin-top: 50px;
-
+  display: grid;
+  grid-template-columns: minmax(300px 300px 300px );
+  grid-auto-rows: 300px;
+  grid-template-areas: 
+  "homemadebread homemadebread bread"
+  "cuocake biscuit brioche";
+  gap: 5px;
+  margin-top: 50px;
+  
 }
 
 .grid-item{
-background: white
+  background: white
 }
 
 .homemadebread{
-grid-area: homemadebread;
-background-image: url(./images/homamadebread.jpg);
-background-repeat: no-repeat;
-background-size: 100%
+  grid-area: homemadebread;
+  background-image: url(./images/homamadebread.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%
 }
 
 
 .breadtitle{
-grid-area: bread;
+  grid-area: bread;
 
 }
 .cupcake{
-grid-area: cuocake;
+  grid-area: cuocake;
 
 }
 .biscuit{
-grid-area: biscuit;
+  grid-area: biscuit;
 
 }
 
 .brioche{
-grid-area: brioche;
+  grid-area: brioche;
 
 }
 
 .homamadetitle{
-display: flex;
-margin-top: 120px;
+  display: flex;
+  margin-top: 120px;
 
 }
 
 .homemadeinfo{
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 .homemadebread h4 {
-color: white;
+  color: white;
 }
 .homebread{
-color: white;
-font-size: 40px;
-font-family: "ultra";
-
+  color: white;
+  font-size: 40px;
+  font-family: "ultra";
+  
 }
 .flows{
-color: white;
-max-width: 322px;
+  color: white;
+  max-width: 322px;
 }
 .num9{
-color: white;
-font-size: 25px;
-font-family: "ultra";
-margin-top: 100px;
-margin-left: 60px;
+  color: white;
+  font-size: 25px;
+  font-family: "ultra";
+  margin-top: 100px;
+  margin-left: 60px;
 }
 
 
 .breadtitle img {
-width: 100%;
-height: 20vh;
-object-fit: cover;
-
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  
 }
 
 .cupcake img{
-width: 100%;
-height: 20vh;
-object-fit: cover;
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
 }
 .biscuit img{
-width: 100%;
-height: 20vh;
-object-fit: cover;
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
 }
 .brioche img {
-width: 100%;
-height: 20vh;
-object-fit: cover;
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
 }
 
 .title1{
-font-size: 16px;
-
+  font-size: 16px;
+  
 }
 
 .title2{
-font-size: 24px;
-font-family: "oswald";
+  font-size: 24px;
+  font-family: "oswald";
 }
 .numbs{
-font-size: 30px;
-font-family: "ultra";
-margin-top: 50px;
-margin-left: 120px;
+ font-size: 30px;
+ font-family: "ultra";
+  margin-top: 50px;
+  margin-left: 120px;
 
 }
 
 .flex{
-display: flex;
+  display: flex;
 }
 .explore-wrapper{
-margin-top: 50px;
-margin-left: 500px;
-
+  margin-top: 50px;
+  margin-left: 500px;
+  
 }
 
 .explore {
-color: white;
-border: 1px solid grey;
-font-size: 15px;
-padding: 10px;
-text-align: center;
+  color: white;
+  border: 1px solid grey;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
 }
 
 
 .work-wrapper{
-background: black;
-width: 100%; 
-
+  background: black;
+  width: 100%; 
+  
 }
 
 .work-container{
-max-width: 1200px;
-height: 100vh;
-position: relative;
-margin: 0 auto;
+  max-width: 1200px;
+  height: 100vh;
+  position: relative;
+  margin: 0 auto;
 }
 
 .contact-work{
-background: white;
-height: 30vh;
-text-align: left;
+  background: white;
+  height: 30vh;
+  text-align: left;
 }
 
 .process-wrapper{
-margin-top: 300px;
-text-align: center;
-
+  margin-top: 300px;
+  text-align: center;
+  
 }
 
 
 
 .process{
-color: white;
-font-size: 11px;
-padding: 10px;
+  color: white;
+  font-size: 11px;
+  padding: 10px;
 }
 .workititle{
-color: rgb(255, 255, 255);
-font-family: "ultra";
-font-size: 40px;
-
+  color: rgb(255, 255, 255);
+  font-family: "ultra";
+  font-size: 40px;
+  
 }
 
 
 
 
 .work-ph{
-max-width: 204px;
-margin-left: 20px;
+  max-width: 204px;
+  margin-left: 20px;
 }
 
 .work-h4{
-font-size: 35px;
-font-family: "ultra";
-margin-top: 90px;
-margin-left: 20px;
+  font-size: 35px;
+  font-family: "ultra";
+  margin-top: 90px;
+  margin-left: 20px;
 }
 
 
 .numwork{
-margin-top: 50px;
-margin-left: 30px;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
 
 
 
 .baking-work{
-
-background: rgb(113, 168, 113);
-height: 34vh;
-margin-top: -20px;
-
+  
+  background: rgb(113, 168, 113);
+  height: 34vh;
+  margin-top: -20px;
+  
 }
 .work-title {
-margin-top: 143px;
+  margin-top: 143px;
 }
 
 
 .baking-work img{
-position: absolute;
-left: 475px;
-top: -20px;
-width: 10%;
+  position: absolute;
+  left: 475px;
+  top: -20px;
+  width: 10%;
 
 }
 
 
 
 .dilivery-work{
-
-background: white;
-height: 30vh;
+  
+  background: white;
+  height: 30vh;
 }
 .tasty-work{
-
-background: white;
-height: 30vh;
+  
+  background: white;
+  height: 30vh;
 }
 .work-process{
-display: flex;
-top: 200px;
-position: relative;
-justify-content: center;
-
-
+  display: flex;
+  top: 200px;
+  position: relative;
+  justify-content: center;
+  
+  
 }
 
 
 .shape-work2{
-position: absolute;
-left: 1150px;
+  position: absolute;
+  left: 1150px;
 }
 
 .combined-work{
-position: absolute;
-left: 1240px;
-bottom: 50px;
+  position: absolute;
+  left: 1240px;
+  bottom: 50px;
 }
 
 
 
 
 .grid-item {
-background-color: white;
+  background-color: white;
 }
 
 
 .recipes-wrapper{
-background: black;
-width: 100%;
+  background: black;
+  width: 100%;
 }
 
 .recipes-container{
-width: 1200px;
-height: 120vh;
-margin: 0 auto;
+  width: 1200px;
+  height: 120vh;
+  margin: 0 auto;
 }
 .recipes-title {
 
-display: flex;
-justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
+  
 }
 .recipes-title h5{
-color: white;
-margin-top: 100px;
+  color: white;
+  margin-top: 100px;
 
 }
 
 .recipes-title h3{
-color: white;
-font-size: 56px;
-font-family: "ultra";
-max-width: 617px;
-margin-top: 150px;
+  color: white;
+  font-size: 56px;
+  font-family: "ultra";
+  max-width: 617px;
+  margin-top: 150px;
 }
 
 
 
 .delicious-wrapper{
-display: grid;
-grid-template-columns: minmax(300px 300px 300px );
-grid-auto-rows: 300px;
-grid-template-areas:
-"delicious-bread delicious-bread flake-bread biscoff-cake"
-"delicious-bread delicious-bread peanut malted-bread";
-gap: 10px;
-
+  display: grid;
+  grid-template-columns: minmax(300px 300px 300px );
+  grid-auto-rows: 300px;
+  grid-template-areas:
+  "delicious-bread delicious-bread flake-bread biscoff-cake"
+  "delicious-bread delicious-bread peanut malted-bread";
+  gap: 10px;
+  
 }
 
 .delicious-bread{
-grid-area: delicious-bread;
+  grid-area: delicious-bread;
 }
 
 .delicious-img{
-width: 100%;
-height: 30vh;
-
-
+  width: 100%;
+  height: 30vh;
+  
+  
 }
 
 .delicious-bread h3{
-font-size: 40px;
-font-family: "ultra";
-margin-top: 20px;
-margin-left: 50px;
+ font-size: 40px;
+ font-family: "ultra";
+ margin-top: 20px;
+ margin-left: 50px;
 }
 
 .delicious-bread h4{
-margin: 10px;
-margin-left: 50px;
+  margin: 10px;
+  margin-left: 50px;
 }
 
 .place{
-display: flex;
-justify-content: space-around;
-margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
 }
 
 .place p{
-max-width: 322px;
-
+  max-width: 322px;
+  
 }
 .time{
-display: flex;
-gap: 10px;
-
+  display: flex;
+  gap: 10px;
+  
 }
 .time p{
-font-size: 20px;
+  font-size: 20px;
 }
 .flake-bread{
-grid-area: flake-bread;
+  grid-area: flake-bread;
 }
 
 .flake-img{
-width: 100%;
-height: 20vh;
-object-fit: cover;
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
 }
 
 .bakery-recipes{
-display: flex;
-justify-content: space-around;
-margin-top: 20px;
-
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  
 }
 
 .time-2{
-display: flex;
-justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
+  
 }
 .recipes-ph{
-max-width: 130px;
-margin-left: 45px;
-
+  max-width: 130px;
+  margin-left: 45px;
+  
 }
 .biscoff-cake{
-grid-area: biscoff-cake;
+  grid-area: biscoff-cake;
 }
 .biscoff-img{
-width: 100%;
-height: 20vh;
+  width: 100%;
+  height: 20vh;
 }
 .peanut{
-grid-area: peanut;
+  grid-area: peanut;
 }
 .peanut-img{
-width: 100%;
-height: 20vh;
+  width: 100%;
+  height: 20vh;
 }
 
 
 .malted-bread{
-grid-area: malted-bread;
+  grid-area: malted-bread;
 }
 .malted-img{
-width: 100%;
-height: 20vh;
+  width: 100%;
+  height: 20vh;
 }
 
 .grid-item {
-background-color: white;
+  background-color: white;
 }
 
 .baker-wrapper{
-width: 100%;
-background: rgb(245, 211, 142);
-height: 100vh;
-
-
+  width: 100%;
+  background: rgb(245, 211, 142);
+  height: 100vh;
+  
+  
 }
 
 
 .baker-container{
-max-width: 1200px;
-margin: 0 auto;
-position: relative;
-height: 100vh;
-
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  height: 100vh;
+  
 }
 .flex-baker{
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 .baker{
-margin-top: 80px;
+  margin-top: 80px;
 }
 
 .baker h3{
-font-size: 56px;
-font-family: "ultra";
-margin-top: 15px;
-max-width: 500px;
+  font-size: 56px;
+  font-family: "ultra";
+  margin-top: 15px;
+  max-width: 500px;
 }
 
 
 .baker-info{
-display: flex;
-gap: 50px;
-margin-top: 100px;
-line-height:32px
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+  line-height:32px
 }
 .baker-persons{
-font-family: "oswald"
+  font-family: "oswald"
 }
 .baker-name{
-font-family: "oswald";
-font-size: 24px;
+  font-family: "oswald";
+  font-size: 24px;
 }
 .baker-info p{
-max-width: 370px;
+  max-width: 370px;
 }
 .arrows-img{
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 .baker-img{
-position: relative;
-top: 150px;
+  position: relative;
+  top: 150px;
 }
 
 
 
 
 .baker-stina{
-position: absolute;
-height: 65vh;
-left: 50px;
+  position: absolute;
+  height: 65vh;
+  left: 50px;
 
 }
 
 .combinedbaker{
-position: absolute;
-left: -20px;
+ position: absolute;
+ left: -20px;
 }
 
 .shapebaker2{
@@ -1032,469 +1035,470 @@ left: 250px;
 
 
 
-.bkr-list {
-    display: none;
-}
-.contact-container{
-    display: none;
-}
-
-.BKR-container {
-    width: 100%;
-    height: 90vh;
-    
-    
-}
-.mobile-burger{
-  display: flex;
-  
-}
-
-  .nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  .bkr-list {
+      display: none;
   }
-  .bkr {
-    width: 100px;
-  }
-  .shapetop {
-    display: none;
-  }
-  .freshbakery {
-    font-size: 56px;
-  }
-  .blindtexts {
-    width: 250px;
+  .contact-container{
+      display: none;
   }
 
-  .bakery-box {
-    display: flex;
-    flex-direction: column-reverse;
-    
-  }
-
-  .bakeryman {
-    width: 90%;
-    left: 150px;
-    top: 450px;
-    
-  }
-
-  .bekry-images {
-  width: 50%;
-  bottom: 450px;
-  left: 10px
-  
-  }
-  .Shape {
-    top: 350px;
-    width: 90%;
-    left: 80px
-  }
-  .bitmap {
-    top: 300px;
-    width: 90%;
-    left: 50px;
-  }
-
-  .oval { 
-    left: 120px;
-    width: 90%;
-    top: 450px;
-  }
-
-
-
-  .shape-orange {
-    width: 80%;
-    top: 350px;
-    left: 150px;
-    
-    
-  }
-  .combinedshape{
-   width: 60%;
-   top: 400px;
-   left: 50px;
-  }
-
-  .shape-down {
-    display: none;
-  }
-  .down{
-    width: 10%;
-    bottom: 5px;
-    left: 250px;
-  }
-
-  .freshbakery{
-    position: absolute;
-    font-size: 25px;
-    left: 150px;
-    bottom: 150px;
-    width: 38%;
-  }
-
-  .date{
-    font-size: 20px;
-    position: absolute;
-    left: 150px;
-    bottom: 240px;
-  }
-
-  .blindtexts{
-    font-size: 20px;
-    position: absolute;
-    bottom: 70px;
-    left: 150px;
-  }
-
-  .baking-box{
-    display: flex;
-    flex-direction: column;
-    
-  }
-  .baking-wrapper{
-    width: 100%;
-    height: 140vh;
-  }
-  .baking-container{
-    width: 100%;
-    height: 140vh;
-  }
-  .baking-img{
-    position: relative;
-    width: 100%;
-    top: -130px;
-  }
-  .shape3{
-    width: 80%
-  }
-
-  .bitmap-black{
-    width: 50%;
-    left: 30px;
-    top: 180px;
-  }
-    .CombinedShape-black{
-      width: 20%;
-      left: 300px;
-
-      
-    }
-    .bakeryspecial{
-      width: 65%;
-      top: 400px;
-      
-    }
-
-    .baking-about{
-      margin-top: -230px;
-      margin-left: 30px;
-    }
-
-    .about-us{
-      font-size: 30px;
-    }
-
-  .special-moments{
-    font-size: 50px
-  }
-    .num01{
-      font-size: 25px;
-    }
-    .viewback{
-      font-size: 24px;
-    }
-
-    .sevenversalia{
-      width: 48%;
-    }
-    
-    .making-fresh{
-      top: 50px;
-      position: absolute;
-      width: 90%;
-      left: 30px;
-      
-      
-    }
-    .tasty{
-      position: absolute;
-      top: 300px;
+  .BKR-container {
       width: 100%;
+      height: 90vh;
       
-    }
-    .tasty h4{
-      font-size: 40px;
       
-    }
-    .bitmap-orange{
-      width: 20%;
-      right: 5px;
-      
-    }
-
-    .bread{
-      left: 50px;
-
-    }
-
-  .fresh{
-    display: none;
   }
-  .natural{
-    display: none;
-  }
-  .story-container{
+  .mobile-burger{
     display: flex;
-    flex-direction: column;
-    height: 70vh;
-    
     
   }
 
-  .combinedshape2{
-    width: 30%;
-    position: absolute;
-    left: 70px;
-    top: -100px;
-    
-    
-  }
+    .nav-wrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .bkr {
+      width: 100px;
+    }
+    .shapetop {
+      display: none;
+    }
+    .freshbakery {
+      font-size: 56px;
+    }
+    .blindtexts {
+      width: 250px;
+    }
 
-   .baking-video{ 
-    width: 50%; 
-    top: 150px;
-    margin: 0 auto;
-    
-  }
+    .bakery-box {
+      display: flex;
+      flex-direction: column-reverse;
+      
+    }
 
-  .video-title p{
-    font-size: 30px;
-    margin-top: -300px;
+    .bakeryman {
+      width: 90%;
+      left: 150px;
+      top: 450px;
+      
+    }
+
+    .bekry-images {
     width: 50%;
-    margin-left: 50px;
-  }
-  .ourvideo{
-    margin-bottom: -180px;
-    margin-left: 20px;
-  }
-    .video-shape1{
-      display: none;
-    }
-    .video-shape{
-      display: none;
-    }
-
-  .Products-container{
-    width: 100%;
+    bottom: 450px;
+    left: 10px
     
-  }
+    }
+    .Shape {
+      top: 350px;
+      width: 90%;
+      left: 80px
+    }
+    .bitmap {
+      top: 300px;
+      width: 90%;
+      left: 50px;
+    }
 
-
-  .Products-wrapper{
-    height: 250vh;
-  }
-
-  .productstitle{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-auto-rows: 300px;
-    grid-template-areas: 
-        "homemadebread"
-         "bread"
-         "cuocake"
-         "biscuit" 
-         "brioche";
-    gap: 5px;
-    margin-top: 50px;
-  }
-
-
-  .homemadebread{
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .homemadeinfo{
-    width: 100%;
-  }
- .bread-bakery{
-  margin-top: -100px;
- }
-  .breadtitle img{
-    width: 100%;
-  }
-  .breadtitle {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-
-  .cupcake{
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .biscuit{
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .brioche{
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .title1{
-    margin-left: 100px;
-  }
-  .title2{
-    margin-left: 100px;
-  }
-  .numbs{
-    margin-left: 150px;
-  }
-
-
-  .explore{
-    margin: 0 auto;
-    margin-left: -300px;
-  }
-
-.work-container{
-width: 100%;
-height: 70vh;
-position: relative;
-}
-
-
-.work-process{
-width: 100%;
-}
-
-.contact-work{
-display: none;
-}
-
-.process-wrapper{
-margin-top: 50px;
-}
-
-.baking-work{
-width: 50%;
-bottom: 10px;
-
-}
-
-.baking-work img{
-left: 260px;
-width: 15%;
-}
-
-.dilivery-work{
-display: none;
-}
-.tasty-work{
-display: none;
-}
-
-.recipes-container{
-width: 100%;
-height: 250vh;
-}
+    .oval { 
+      left: 120px;
+      width: 90%;
+      top: 450px;
+    }
 
 
 
-.delicious-wrapper{
-display: grid;
-grid-template-columns: 100%;
-grid-auto-rows: 300px;
-grid-template-areas:
-"delicious-bread" 
- "flake-bread" 
- "biscoff-cake"
- "peanut"
- "malted-bread";
-gap: 10px;
+    .shape-orange {
+      width: 80%;
+      top: 350px;
+      left: 150px;
+      
+      
+    }
+    .combinedshape{
+     width: 60%;
+     top: 400px;
+     left: 50px;
+    }
 
-}
+    .shape-down {
+      display: none;
+    }
+    .down{
+      width: 10%;
+      bottom: 5px;
+      left: 250px;
+    }
 
-.delicious-bread img{
-height: 10vh;
-object-fit: cover;
-}
+    .freshbakery{
+      position: absolute;
+      font-size: 25px;
+      left: 150px;
+      bottom: 150px;
+      width: 38%;
+    }
+
+    .date{
+      font-size: 20px;
+      position: absolute;
+      left: 150px;
+      bottom: 240px;
+    }
+
+    .blindtexts{
+      font-size: 20px;
+      position: absolute;
+      bottom: 70px;
+      left: 150px;
+    }
+
+    .baking-box{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .baking-wrapper{
+      width: 100%;
+      height: 140vh;
+    }
+    .baking-container{
+      width: 100%;
+      height: 140vh;
+    }
+    .baking-img{
+      position: relative;
+      width: 70%;
+      bottom: 100px;
+      
+      
+    }
+    .shape3{
+      width: 80%
+    }
+
+    .bitmap-black{
+      width: 50%;
+      left: 30px;
+      top: 180px;
+    }
+      .CombinedShape-black{
+        width: 20%;
+        left: 200px;
+      }
+      .bakeryspecial{
+        width: 65%;
+        top: 330px;
+        
+      }
+
+      .baking-about{
+        margin-top: -230px;
+        margin-left: 30px;
+      }
+
+      .about-us{
+        font-size: 30px;
+      }
+
+    .special-moments{
+      font-size: 50px
+    }
+      .num01{
+        font-size: 25px;
+      }
+      .viewback{
+        font-size: 24px;
+      }
+
+      .sevenversalia{
+        width: 48%;
+      }
+      .bakingwithlov-container{
+        width: 100%;
+        height: 60vh;
+      }
 
 
-.place{
-margin-top: 20px;
-font-size: 10px;
-margin-left: 20px;
-}
-.time{
-width: 10%
-}
-.time-2{
-margin-left: 50px;
-}
-.time img{
-width: 30%;
-height: 3vh;
-}
-.recipes-title h3{
-width: 60%;
-}
+      .making-fresh{
+        top: 50px;
+        position: absolute;
+        width: 90%;
+        left: 30px;
+        
+        
+      }
+      .tasty{
+        position: absolute;
+        top: 300px;
+        width: 100%;
+        
+      }
+      .tasty h4{
+        font-size: 40px;
+        
+      }
+      .bitmap-orange{
+        width: 20%;
+        right: 5px;
+        
+      }
 
-.recipes-title h5{
-position: absolute;
+      .bread{
+        left: 50px;
 
-}
+      }
+
+    .fresh{
+      display: none;
+    }
+    .natural{
+      display: none;
+    }
+    .story-container{
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 60%;
+      
+      
+    }
+
+    .combinedshape2{
+      width: 30%;
+      
+      left: 70px;
+      
+      
+      
+    }
+
+     .baking-video{ 
+      width: 50%; 
+      top: 150px;
+      margin: 0 auto;
+      
+    }
+
+    .video-title p{
+      font-size: 30px;
+      margin-top: -300px;
+      width: 50%;
+      margin-left: 50px;
+    }
+    .ourvideo{
+
+    }
+      .video-shape1{
+        display: none;
+      }
+      .video-shape{
+        display: none;
+      }
+      .Products-wrapper{
+        height: 240vh;
+      }
+
+      .Products-container{
+        width: 100%;
+      }
+  
+      .productstitle{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-auto-rows: 300px;
+        grid-template-areas: 
+            "homemadebread"
+             "bread"
+             "cuocake"
+             "biscuit" 
+             "brioche";
+        gap: 5px;
+       
+      }
+  
+  
+      .homemadebread{
+        width: 100%;
+        margin: 0 auto;
+      }
+  
+      .homemadeinfo{
+        width: 100%;
+      }
+     .bread-bakery{
+      margin-top: -100px;
+     }
+      .breadtitle img{
+        width: 100%;
+      }
+      .breadtitle {
+        width: 100%;
+        margin: 0 auto;
+      }
+  
+  
+      .cupcake{
+        width: 100%;
+        margin: 0 auto;
+      }
+  
+      .biscuit{
+        width: 100%;
+        margin: 0 auto;
+      }
+  
+      .brioche{
+        width: 100%;
+        margin: 0 auto;
+      }
+  
+      .title1{
+        margin-left: 100px;
+      }
+      .title2{
+        margin-left: 100px;
+      }
+      .numbs{
+        position: absolute;
+        right: 100px;
+      }
+  
+  
+      .explore{
+        margin: 0 auto;
+        position: absolute;
+        right: 180px;
+      }
+      .work-container{
+        width: 100%;
+        height: 70vh;
+        position: relative;
+      }
+      
+      
+      .work-process{
+        width: 100%;
+      }
+      
+      .contact-work{
+        display: none;
+      }
+      
+      .process-wrapper{
+        margin-top: 50px;
+      }
+      
+      .baking-work{
+        width: 50%;
+        bottom: 10px;
+        
+      }
+      
+      .baking-work img{
+        left: 270px;
+        width: 15%;
+      }
+      
+      .dilivery-work{
+        display: none;
+      }
+      .tasty-work{
+        display: none;
+      }
+      .recipes-container{
+        width: 100%;
+        height: 240vh;
+      }
+      
+      
+      
+      .delicious-wrapper{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-auto-rows: 300px;
+        grid-template-areas:
+        "delicious-bread" 
+         "flake-bread" 
+         "biscoff-cake"
+         "peanut"
+         "malted-bread";
+        gap: 10px;
+        
+      }
+      
+      .delicious-bread img{
+        height: 10vh;
+        object-fit: cover;
+      }
+      
+      
+      .place{
+        margin-top: 20px;
+        font-size: 10px;
+        margin-left: 20px;
+      }
+      .time{
+        width: 10%
+      }
+      .time-2{
+        margin-left: 50px;
+      }
+      .time img{
+        width: 30%;
+        height: 3vh;
+      }
+      .recipes-title h3{
+       width: 60%;
+      }
+      
+      .recipes-title h5{
+        position: absolute;
+      }
 
 .baker-container{
-width: 100%;
+  width: 100%;
 }
 .baker-wrapper{
-height: 180vh;
+  height: 140vh;
 }
 .flex-baker{
-display: flex;
-flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
+  
 }
 .baker-img{
-width: 20%;
+  width: 20%;
 }
 
 .shapebaker{
-position: absolute;
-width: 100%
+  position: absolute;
+  width: 100%
 }
 
 .baker-img{
-width: 50%;
+  width: 50%;
 }
 
 .baker-stina{
-width: 100%;
-height: 40vh;
+  width: 100%;
+  height: 40vh;
 }
 .combinedbaker{
-width: 50%;
+  width: 50%;
 }
 
 .shapebaker2{
-width: 50%;
-position: absolute;
-left: 50px;
-top: -50px;
+  width: 50%;
+  position: absolute;
+  left: 50px;
+  top: -50px;
 }
 .baker-info{
-width: 50%;
+  width: 50%;
 }
 .baker h3{
-font-size: 30px;
+ font-size: 30px;
 }
 
 
