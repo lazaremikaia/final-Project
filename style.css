@@ -1049,6 +1049,263 @@ left: 250px;
 
 }
 
+.peoplesay-wrapper{
+  width: 100%;
+  background: rgb(245, 211, 142);
+  height: 100vh;
+}
+
+.peoplesay-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+    
+}
+
+.reviews-title h5{
+  
+  font-family: "oswald";
+  text-align: center;
+  
+}
+.reviews-title h3{
+  max-width: 600px;
+  font-family: "ultra";
+  font-size: 56px;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 100px;
+  
+}
+
+
+
+
+.stars{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+}
+
+.star-img{
+  max-width: 120px;
+  height: 2vh;
+}
+
+.person{
+  border-radius: 50%;
+  max-width: 102px;
+  object-fit: cover;
+}
+.bekery-reviews{
+max-width: 300px;
+background-color: white;
+height: 30vh;
+}
+
+.best-bakery{
+  max-width: 400px;
+  background-color: rgb(59, 119, 59);
+  height: 32vh;
+  margin-top: -10px;
+  
+}
+.reviews{
+  display: flex;
+  margin-top: 200px;
+  margin-left: 100px;
+ 
+  
+}
+
+
+.person-reviews h4{
+  font-size: 24px;
+  font-family: "oswald";
+  margin-left: 20px;
+  margin-top: 30px;
+  
+}
+
+.person-reviews p{
+  max-width: 306px;
+  margin-left: 20px;
+}
+
+.contactus-wrapper{
+  width: 100%;
+  background: rgb(245, 211, 142);
+  height: 100vh;
+  
+}
+
+
+.contactus-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  display: flex; 
+  justify-content: space-around;
+}
+
+.contact-img{
+  position: relative;
+  top: 150px;
+}
+
+
+.contact-combined{
+  position: absolute;
+  left: 410px;
+}
+
+.contact-shape2{
+  position: absolute;
+  left: 100px;
+  top: -130px;
+}
+
+
+.contact-baker{
+  position: absolute;
+  left: 50px;
+  top: -100px;
+}
+
+.address-phone-info{
+  display: flex;
+  gap: 50px;
+}
+
+.address-contact{
+  display: flex;
+  margin-top: 130px;
+  line-height: 32px
+}
+
+
+.address-contact h3{
+  font-size: 24px;
+  font-family: "oswald";
+}
+.phone-contact{
+  display: flex;
+  line-height: 32px;
+  margin-top: 130px;
+}
+
+.phone-contact h3{
+
+  font-size: 24px;
+  font-family: "oswald";
+}
+.phone-contact img{
+  height: 5vh;
+  margin-top: 50px;
+}
+.info{
+    max-width: 141px;
+    font-size: 16px;
+}
+
+.info1{
+  width: 141px;
+}
+
+.contactus{
+ max-width: 287px;
+ font-family: "ultra";
+ font-size: 56px;
+}
+
+.address-contact img{
+  height: 5vh;
+  margin-top: 50px;
+}
+.contactus-info{
+  margin-top: 100px;
+}
+
+.contact-button{
+  color: black;
+  border: 1px solid grey;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 150px;
+  position: absolute;
+  bottom: -50px;
+}
+
+footer{
+  width: 100%;
+  background: black;
+  height: 50vh;
+}
+
+
+.footer-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+.menu p {
+  color: white;
+  
+  
+}
+.menu h5{
+  color: white;
+}
+
+.footer-wrapper{
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  
+}
+
+.social h5 {
+  color: white;
+}
+
+.social img{
+  margin-top: 50px;
+}
+
+.bkr-icon{
+  margin-top: 50px;
+}
+.menu{
+  margin-top: 50px;
+}
+.social{
+  margin-top: 50px;
+}
+
+.about-p{
+  margin-top: 30px;
+}
+.down-footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+  
+}
+.down-footer p{
+  color: white;
+}
+.privacy{
+  display: flex;
+  gap: 100px;
+}
+.copyright p{
+  max-width: 339px;
+}
+
 
 
 @media (max-width:1024px) {
@@ -1496,50 +1753,160 @@ left: 250px;
         position: absolute;
       }
 
-.baker-container{
+      .baker-container{
+        width: 100%;
+      }
+      .baker-wrapper{
+        height: 140vh;
+      }
+     .flex-baker{
+       display: flex;
+       flex-direction: column;
+  
+     }
+    .baker-img{
+      width: 20%;
+     }
+
+   .shapebaker{
+      position: absolute;
+      width: 100%
+     }
+
+    .baker-img{
+      width: 50%;
+     }
+
+    .baker-stina{
   width: 100%;
+  height: 40vh;
+     } 
+    .combinedbaker{
+      width: 50%;
+     }
+
+    .shapebaker2{
+     width: 50%;
+     position: absolute;
+     left: 50px;
+     top: -50px;
+    }
+   .baker-info{
+    width: 50%;
+    }
+  .baker h3{
+   font-size: 30px;
+    } 
+
+  .peoplesay-container{
+   width: 100%;
+  
+    }
+  .bekery-reviews{
+  display: none;
+    }
+.best-bakery{
+  width: 100%;
+  margin-top: 50px;
+  margin-left: -50px;
+  
 }
-.baker-wrapper{
-  height: 140vh;
+.reviews-title h3{
+  max-width: 282px;
+  font-size: 40px;
+  top: -50px;
+  left: -150px;
+ position: absolute;
 }
-.flex-baker{
+
+.reviews-title h5{
+  margin-left: 50px;
+}
+.contactus-container{
+  width: 100%;
   display: flex;
   flex-direction: column;
   
 }
-.baker-img{
+.contact-shape{
+  width: 80%;
+}
+.contact-combined{
   width: 20%;
+  left: 250px;
+  top: 20px;
 }
 
-.shapebaker{
-  position: absolute;
-  width: 100%
-}
-
-.baker-img{
+.contact-shape2{
   width: 50%;
+  top: -60px;
+}
+.contact-baker{
+  width: 60%;
+  top: -10px;
 }
 
-.baker-stina{
-  width: 100%;
-  height: 40vh;
-}
-.combinedbaker{
-  width: 50%;
-}
-
-.shapebaker2{
-  width: 50%;
-  position: absolute;
+.contact-img{
+  top: -100px;
   left: 50px;
-  top: -50px;
+  width: 80%;
 }
-.baker-info{
+
+.address-phone-info{
+  display: flex;
+  flex-direction: column;
+  margin-top: -100px;
+  
+ 
+}
+
+.contactus-info{
+  margin-top: -50px;
+}
+
+.phone-contact{
+  margin-top: -30px;
+}
+
+
+.footer-container{
+  width: 100%;
+  
+}
+.footer-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+footer{
+  height: 100vh;
+}
+.copyright p{
   width: 50%;
+  margin-left: 100px;
+  text-align: center;
+  
 }
-.baker h3{
- font-size: 30px;
+.down-footer{
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+width: 100%;
+align-items: center;
+margin-top: 50px;
+
+
+}
+
+.privacy{
+  display: flex;
+  margin-top: 50px;
 }
 
 
 }
+
+
