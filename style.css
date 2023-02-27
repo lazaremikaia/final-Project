@@ -41,8 +41,6 @@ ul li a {
 }
 
 .nav-wrapper {
-    display: flex;
-    gap: 100px;
     margin-top: 20px;
 }
 
@@ -190,8 +188,7 @@ header {
 
 .shape-orange {
     position: absolute;
-    top: 350px;
-    left: 170px
+
 
 }
 
@@ -287,7 +284,7 @@ margin-top: 200px;
 .CombinedShape-black {
   position: absolute;
   top: 200px;
-  left: 370px;
+  right: 20px;
   max-width: 200px;
 }
 .bakeryspecial{
@@ -593,9 +590,9 @@ padding: 30px;
 
 .homemadebread{
   grid-area: homemadebread;
-  background-image: url(./images/homamadebread.jpg);
+  background-image: url(./images/homamadebread.jpg) ; 
   background-repeat: no-repeat;
-  background-size: 100%
+  background-size: 100% 100%
 }
 
 
@@ -618,7 +615,7 @@ padding: 30px;
 }
 
 .homamadetitle{
-  display: flex;
+  
   margin-top: 120px;
 
 }
@@ -644,8 +641,8 @@ padding: 30px;
   color: white;
   font-size: 25px;
   font-family: "ultra";
-  margin-top: 100px;
-  margin-left: 60px;
+  
+  
 }
 
 
@@ -1346,7 +1343,7 @@ footer{
       font-size: 56px;
     }
     .blindtexts {
-      width: 250px;
+      max-width: 250px;
     }
 
     .bakery-box {
@@ -1365,7 +1362,7 @@ footer{
     .bekry-images {
     width: 50%;
     bottom: 450px;
-    left: 10px
+    
     
     }
     .Shape {
@@ -1388,14 +1385,14 @@ footer{
 
 
     .shape-orange {
-      width: 80%;
+      width: 90%;
       top: 350px;
       left: 150px;
       
       
     }
     .combinedshape{
-     width: 60%;
+     width: 90%;
      top: 400px;
      left: 50px;
     }
@@ -1406,29 +1403,27 @@ footer{
     .down{
       width: 10%;
       bottom: 5px;
-      left: 250px;
+      left: 200px;
     }
 
     .freshbakery{
       position: absolute;
       font-size: 25px;
-      left: 150px;
-      bottom: 150px;
+      bottom: 120px;
       width: 38%;
     }
 
     .date{
       font-size: 20px;
       position: absolute;
-      left: 150px;
       bottom: 240px;
     }
 
     .blindtexts{
       font-size: 20px;
       position: absolute;
-      bottom: 70px;
-      left: 150px;
+      bottom: 50px;
+
     }
 
     .baking-box{
@@ -1442,37 +1437,37 @@ footer{
     }
     .baking-container{
       width: 100%;
-      height: 140vh;
+      height: 125vh;
     }
     .baking-img{
       position: relative;
-      width: 70%;
+      width: 50%;
       bottom: 100px;
       
       
     }
     .shape3{
-      width: 80%
+      width: 100%
     }
 
     .bitmap-black{
-      width: 50%;
+      width: 70%;
       left: 30px;
       top: 180px;
     }
       .CombinedShape-black{
-        width: 20%;
-        left: 200px;
+        width: 25%;
+        
       }
       .bakeryspecial{
-        width: 65%;
-        top: 330px;
+        width: 70%;
+        top: 310px;
         
       }
 
       .baking-about{
         margin-top: -230px;
-        margin-left: 30px;
+        
       }
 
       .about-us{
@@ -1480,17 +1475,18 @@ footer{
       }
 
     .special-moments{
-      font-size: 50px
+      font-size: 20px
     }
       .num01{
         font-size: 25px;
       }
       .viewback{
-        font-size: 24px;
+        font-size: 16px;
       }
 
       .sevenversalia{
-        width: 48%;
+        width: 80%;
+        font-size: 16px;
       }
       .bakingwithlov-container{
         width: 100%;
@@ -1543,8 +1539,9 @@ footer{
 
     .video-title h3{
       font-size: 35px;
-      margin-top: -200px;
-      width: 100%;
+      position: absolute;
+      
+      top: -200px;
       
     }
     .video-title h5{
@@ -1572,7 +1569,7 @@ footer{
 
 
     .combinedshape2{
-      width: 50%;
+      width: 70%;
       left: 70px;
       
     }
@@ -1603,7 +1600,7 @@ footer{
       .productstitle{
         display: grid;
         grid-template-columns: 100%;
-        grid-auto-rows: 300px;
+        
         grid-template-areas: 
             "homemadebread"
              "bread"
@@ -1614,7 +1611,10 @@ footer{
        
       }
   
-  
+      .bakedfresh{
+        width: 50%;
+        font-size: 30px;
+      }
       .homemadebread{
         width: 100%;
         margin: 0 auto;
